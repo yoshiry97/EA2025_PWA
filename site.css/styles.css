@@ -1,0 +1,177 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Estilo para el encabezado */
+header {
+    background: linear-gradient(135deg, #5c46ac, #342c7a); /* Degradado profesional */
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Estilo de la foto de perfil */
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+/* Estilo del título principal */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Llamada a la acción */
+.btn-primary {
+    background-color: #5c46ac;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #342c7a;
+}
+
+/* Histórico de Proyectos */
+#historico {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#historico h3 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #5c46ac;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #5c46ac;
+    font-weight: bold;
+}
+
+/* Galería Visual */
+#galeria {
+    margin-top: 2rem;
+}
+
+.carousel-inner img {
+    max-height: 500px; /* Altura máxima del carrusel */
+    width: 100%;
+    object-fit: contain; /* Ajusta las imágenes sin recortar */
+    background-color: #e9ecef; /* Fondo para imágenes pequeñas */
+}
+
+.custom-carousel {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(92, 70, 172, 0.8); /* Color de las flechas */
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(52, 44, 122, 0.8);
+}
+
+/* Formulario */
+#formulario {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formulario h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #5c46ac;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+form .form-control {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+}
+
+form button {
+    background-color: #5c46ac;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #342c7a;
+}
+
+/* Footer */
+footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
